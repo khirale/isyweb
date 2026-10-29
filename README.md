@@ -1,5 +1,16 @@
 # IsyWeb
 
+<p align="center">
+  <a href="https://buymeacoffee.com/khirale">
+    <img
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      alt="Buy Me a Coffee"
+      height="45"
+    >
+  </a>
+</p>
+
+
 **Suivez votre installation Isypower depuis votre ordinateur, dans votre navigateur.**
 
 IsyWeb est un petit programme à lancer sur votre PC (Windows ou Linux). Il ouvre une page web locale qui affiche votre installation solaire : flux d'énergie en direct, batteries, production par panneau, bilans et économies en euros. Vous utilisez les **mêmes identifiants** que dans l'application mobile Isypower.
