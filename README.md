@@ -10,7 +10,6 @@
   </a>
 </p>
 
-
 **Suivez votre installation Isypower depuis votre ordinateur, dans votre navigateur.**
 
 IsyWeb est un petit programme à lancer sur votre PC (Windows ou Linux). Il ouvre une page web locale qui affiche votre installation solaire : flux d'énergie en direct, batteries, production par panneau, bilans et économies en euros. Vous utilisez les **mêmes identifiants** que dans l'application mobile Isypower.
@@ -27,9 +26,9 @@ Pas d'installation compliquée, pas de compte à créer, pas de serveur à louer
 - **Production** : par micro-onduleur, par batterie (entrées solaires) et par panneau, avec les pinces CT 2 et CT 3 du compteur intelligent comme sources à part. Contrôle de santé des panneaux sur 7 jours.
 - **Batteries** : cluster maître / esclave, charge de chaque batterie, modules, réglages.
 - **Bilan** : jour, mois, année et total, avec graphiques et économies en euros. Consommation et achats sont détaillés par tarif (heures pleines / creuses, Tempo…).
-- **Tarifs** : Base, Heures pleines / creuses (plusieurs plages dans la journée), Tempo, OctoSaisons (Octopus) ou personnalisé. Périodes été / hiver, et changements de prix à une date donnée.
+- **Tarifs** : Base, Heures pleines / creuses (plusieurs plages dans la journée), Tempo, OctoSaisons (Octopus) ou personnalisé. Périodes été / hiver, et changements de prix à une date donnée. Un tarif distinct par site si votre compte en gère plusieurs.
 - **Appareils** : état de chaque appareil, renommage (le nom reste local à IsyWeb), réglages.
-- **Alertes** : batterie faible, appareil hors ligne, panneau à vérifier, jour Tempo rouge… avec notifications Windows ou Linux.
+- **Alertes** : batterie faible, appareil hors ligne, panneau à vérifier, jour Tempo rouge… avec notifications Windows ou Linux. Le site concerné est indiqué quand vous en avez plusieurs.
 - **Export CSV** (ouvrable dans Excel), **mode affichage mural** plein écran.
 - **Accès depuis un autre appareil de la maison** (téléphone, tablette), protégé par un code à 6 chiffres. Désactivé par défaut.
 
@@ -120,10 +119,18 @@ Le PC (ou la machine) doit rester allumé avec IsyWeb lancé. Sous Windows, si l
 | Windows bloque le lancement | « Informations complémentaires » › « Exécuter quand même ». Si l'antivirus supprime le fichier, l'autoriser dans ses exceptions. |
 | La page ne s'ouvre pas | Ouvrez `http://127.0.0.1:8765/`. Si rien ne répond, IsyWeb n'est pas lancé, ou le port 8765 est déjà pris par un autre logiciel. |
 | « E-mail ou mot de passe incorrect » | Vérifiez les mêmes identifiants dans l'application mobile, retapez le mot de passe à la main (sans espace en fin de saisie), essayez en navigation privée. |
+| Connexion impossible, message étrange | Sur l'écran de connexion, cliquez sur **Copier le diagnostic** et collez-le dans votre message (il ne contient ni identifiant, ni mot de passe, ni jeton). |
 | « Le cloud Isypower ne répond pas » | Vérifiez la connexion Internet, un pare-feu ou un antivirus qui inspecte le trafic HTTPS. |
 | Rien ne s'affiche sur un autre appareil | Même Wi-Fi, accès réseau activé, pare-feu autorisé (réseau en profil « Privé » sous Windows). |
 | Pas de notification | Réglages › Notifications : activer, puis « Envoyer une notification de test ». |
 
+### Utilitaire : adresse IP des batteries Titan
+
+`tools/titan-ip.ps1` (Windows PowerShell) liste l'adresse IP, le Wi-Fi et le signal des appareils de votre compte via le cloud, sans rien modifier :
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\titan-ip.ps1
+```
 
 ---
 
@@ -169,6 +176,12 @@ Le serveur est en Go ; l'interface est une seule page `index.html` embarquée da
 | `ui_windows.go`, `ui_linux.go`, `ui_other.go` | icône, notifications, démarrage automatique |
 | `index.html` | toute l'interface |
 | `linux/install.sh` | installation Linux (utilisateur ou service) |
+
+---
+
+## Licence
+
+Logiciel propriétaire, **© 2026 Adrien (khirale), tous droits réservés**. Utilisation personnelle et domestique gratuite. Sans accord écrit de l'auteur, il est interdit de redistribuer, modifier, décompiler ou réutiliser IsyWeb, et de l'utiliser à titre commercial. Texte complet dans [LICENSE](LICENSE).
 
 ---
 
