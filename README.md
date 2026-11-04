@@ -34,6 +34,11 @@ Pas d'installation compliquée, pas de compte à créer, pas de serveur à louer
 
 ---
 
+<img src="https://github.com/khirale/isyweb/blob/main/images/isyweb-captures.png" width=100%>
+
+
+
+
 ## Téléchargement
 
 Rendez-vous dans la section **Releases** du dépôt et téléchargez le fichier correspondant à votre machine :
