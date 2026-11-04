@@ -124,14 +124,6 @@ Le PC (ou la machine) doit rester allumé avec IsyWeb lancé. Sous Windows, si l
 | Rien ne s'affiche sur un autre appareil | Même Wi-Fi, accès réseau activé, pare-feu autorisé (réseau en profil « Privé » sous Windows). |
 | Pas de notification | Réglages › Notifications : activer, puis « Envoyer une notification de test ». |
 
-### Utilitaire : adresse IP des batteries Titan
-
-`tools/titan-ip.ps1` (Windows PowerShell) liste l'adresse IP, le Wi-Fi et le signal des appareils de votre compte via le cloud, sans rien modifier :
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\titan-ip.ps1
-```
-
 ---
 
 ## Ligne de commande
