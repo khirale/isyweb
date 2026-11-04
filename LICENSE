@@ -1,21 +1,90 @@
-MIT License
+IsyWeb — Licence d'utilisation / Usage licence
+Copyright (c) 2026 Adrien (khirale). Tous droits réservés / All rights reserved.
 
-Copyright (c) 2026 khirale
+FRANÇAIS
+--------
+IsyWeb (le « Logiciel ») est un logiciel propriétaire. Il n'est pas distribué
+sous licence libre ou open source.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Ce que vous pouvez faire, gratuitement
+   - télécharger le Logiciel depuis les liens officiels publiés par l'auteur ;
+   - l'installer et l'utiliser pour votre usage personnel et domestique, y
+     compris pour suivre votre propre installation solaire ;
+   - l'installer sur plusieurs machines vous appartenant (PC, serveur, Raspberry
+     Pi, machine virtuelle, conteneur) et y accéder depuis vos appareils.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Ce qui est interdit sans l'accord écrit préalable de l'auteur
+   - copier, redistribuer, publier, héberger ou revendre le Logiciel ou une
+     partie de celui-ci (exécutable, archives, code source, interface) ;
+   - le modifier, le traduire, l'adapter, en créer des œuvres dérivées ou
+     réutiliser tout ou partie de son code, de son interface, de ses textes,
+     de ses icônes ou de ses algorithmes dans un autre projet ;
+   - le décompiler, le désassembler ou en extraire le code, sauf dans les
+     limites où la loi l'autorise malgré cette interdiction ;
+   - l'utiliser à titre commercial : l'intégrer à un produit ou un service,
+     l'offrir à des tiers (y compris en service hébergé) ou le proposer à vos
+     clients, contre rémunération ou non ;
+   - retirer ou modifier les mentions de copyright et de licence.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Aucune affiliation
+   IsyWeb est un projet indépendant, non affilié à Materfrance ni à Isypower.
+   Il utilise votre propre compte, avec le même cloud que l'application mobile.
+   Les noms et marques cités appartiennent à leurs propriétaires.
+
+4. Aucune garantie
+   Le Logiciel est fourni « en l'état », sans garantie d'aucune sorte, expresse
+   ou implicite (qualité, adéquation à un usage, absence d'erreur, exactitude
+   des calculs et des économies affichés). L'auteur n'est pas responsable des
+   dommages résultant de son utilisation. Vous restez responsable du respect
+   des conditions d'utilisation du service cloud que vous utilisez.
+
+5. Fin de licence
+   Toute violation de ces conditions met fin à vos droits d'utilisation.
+
+6. Contact
+   Pour toute autorisation particulière (usage professionnel, redistribution,
+   intégration), contactez l'auteur via la page du projet.
+
+ENGLISH
+-------
+IsyWeb (the "Software") is proprietary software. It is not released under a
+free or open-source licence.
+
+1. Permitted, free of charge
+   - download the Software from the official links published by the author;
+   - install and use it for your own personal, household purposes, including
+     monitoring your own solar installation;
+   - install it on several machines you own (PC, server, Raspberry Pi, virtual
+     machine, container) and access it from your own devices.
+
+2. Prohibited without the author's prior written permission
+   - copying, redistributing, publishing, hosting or reselling the Software or
+     any part of it (executable, archives, source code, user interface);
+   - modifying, translating or adapting it, creating derivative works, or
+     reusing any of its code, interface, texts, icons or algorithms in another
+     project;
+   - decompiling, disassembling or extracting its code, except to the extent
+     applicable law permits despite this prohibition;
+   - commercial use: embedding it in a product or service, offering it to third
+     parties (including as a hosted service) or to your customers, whether or
+     not for a fee;
+   - removing or altering copyright and licence notices.
+
+3. No affiliation
+   IsyWeb is an independent project, not affiliated with Materfrance or
+   Isypower. It uses your own account with the same cloud as the mobile app.
+   Names and trademarks mentioned belong to their respective owners.
+
+4. No warranty
+   The Software is provided "as is", without warranty of any kind, express or
+   implied (including quality, fitness for a purpose, absence of errors, or
+   accuracy of the calculations and savings displayed). The author is not liable
+   for any damages arising from its use. You remain responsible for complying
+   with the terms of the cloud service you use.
+
+5. Termination
+   Any breach of these terms terminates your rights to use the Software.
+
+6. Contact
+   For any special permission (professional use, redistribution, integration),
+   contact the author through the project page.
